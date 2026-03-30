@@ -18,4 +18,4 @@ Supplementary materials for rebuttal.
 	<img src="viability_volume.png" alt="Figure 3" width="100%" />
 </p>
 
-**Figure 3. Viability Volume ($V_{\delta}$) over noise scales ($\sigma \in [0.001, 0.005]$) and loss thresholds ($\delta \in [10^{-4}, 10^{-3}]$).** Each heatmap reports $V_{\delta}$ (with $N=20$ Monte Carlo samples per cell), i.e., the probability that perturbations stay within the loss tolerance. **GA** consistently preserves the largest viable region, indicating a broader and more robust basin. **SAM** and **E-SGD** improve over **SGD/Adam**, but remain less stable than GA at higher noise.
+<b>Figure 3.</b> Viability Volume&nbsp; $V_{\delta}$ over noise scales&nbsp; $\sigma \in [0.001, 0.005]$ and loss thresholds&nbsp; $\delta \in [10^{-4}, 10^{-3}]$. Each heatmap reports $V_{\delta}$ (with $N=20$ Monte Carlo samples per cell), i.e., the probability that perturbations stay within the loss tolerance. <b>GA</b> consistently preserves the largest viable region, indicating a broader and more robust basin. <b>SAM</b> and <b>E-SGD</b> improve over <b>SGD/Adam</b>, but remain less stable than GA at higher noise.
